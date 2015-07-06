@@ -7,10 +7,10 @@ class xvfb::params {
 
   case $::osfamily {
     'Debian': {
-      $package = "xvfb"
+      $package_name = "xvfb"
     }
     'RedHat', 'Amazon': {
-      $package_name = 'nil'
+      $package_name = 'xorg-X11-server-Xvfb'
     }
     default: {
       fail("${::operatingsystem} not supported")

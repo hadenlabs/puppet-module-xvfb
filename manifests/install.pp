@@ -4,7 +4,7 @@
 #
 class xvfb::install {
 
-  package { $::xvfb::package:
+  package { $::xvfb::package_name:
     ensure => installed,
   }
 

@@ -8,7 +8,7 @@
 #   Explanation of what this parameter affects and what it defaults to.
 #
 class xvfb (
-  $package = $::xvfb::params::package,
+  $package = $::xvfb::params::package_name,
 ) inherits ::xvfb::params {
 
   # validate parameters here
