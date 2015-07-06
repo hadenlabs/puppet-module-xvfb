@@ -1,0 +1,10 @@
+name          'hadenlabs-xvfb'
+version       '1.0.0'
+source        ''
+author        'luis mayta'
+license       'Mit'
+summary       ''
+description   ''
+project_page  ''
+
+dependency 'puppetlabs/stdlib'
