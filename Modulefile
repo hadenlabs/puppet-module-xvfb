@@ -1,10 +1,10 @@
 name          'hadenlabs-xvfb'
-version       '1.0.0'
+version       'v1.0.0'
 source        ''
 author        'luis mayta'
 license       'Mit'
 summary       ''
 description   ''
-project_page  ''
+project_page  'https://github.com/hadenlabs/puppet-module-xvfb'
 
 dependency 'puppetlabs/stdlib'
