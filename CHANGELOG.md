@@ -1,3 +1,3 @@
-### v1.0.0 (DATE)
+### v1.0.0 (2015-07-08)
 
-- texto1
+- First Version
